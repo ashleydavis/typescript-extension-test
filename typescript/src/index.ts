@@ -1,16 +1,7 @@
 
-import * as moment from 'moment';
+import { DataFrame } from './dataframe';
+require('./dataframe-plugin');
 
-export class ExampleClass {
+var df = new DataFrame();
 
-    test(): void {
-        console.log("Test: " + moment().format('YYYY-DD-MM'));
-    }
-
-    returnsTrue(): boolean {
-        return true;
-    }
-
-}
-
-//TODO: Code for your reusable code module goes here.
+df.someFunction().somePluginFunction();
