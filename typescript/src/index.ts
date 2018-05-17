@@ -5,3 +5,4 @@ import "./dataframe-plugin";
 var df = new DataFrame();
 
 df.somePluginFunction();
+
