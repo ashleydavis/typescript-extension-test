@@ -1,7 +1,7 @@
 
-var DataFrame = require('./dataframe');
+var DataFrame = require('data-forge').DataFrame;
 require('./dataframe-plugin');
 
 var df = new DataFrame();
 
-df.someFunction().somePluginFunction();
+df.somePluginFunction();

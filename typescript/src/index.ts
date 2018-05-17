@@ -1,7 +1,7 @@
 
-import { DataFrame } from './dataframe';
-require('./dataframe-plugin');
+import { DataFrame } from 'data-forge';
+import "./dataframe-plugin";
 
 var df = new DataFrame();
 
-df.someFunction().somePluginFunction();
+df.somePluginFunction();
