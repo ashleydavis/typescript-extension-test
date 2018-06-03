@@ -2,6 +2,10 @@
 import { IDataFrame, DataFrame } from 'data-forge';
 
 declare module "data-forge/build/lib/dataframe" {
+    interface IDataFrame<IndexT, ValueT> {
+        somePluginFunction (): IDataFrame<IndexT, ValueT>;
+    }
+
     interface DataFrame<IndexT, ValueT> {
         somePluginFunction (): IDataFrame<IndexT, ValueT>;
     }
