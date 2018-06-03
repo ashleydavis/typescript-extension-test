@@ -1,7 +1,7 @@
 {
   "name": "typescript-extension-test",
   "version": "1.0.0",
-  "description": "Trying to figure out I'm going to extend TypeScript classes.",
+  "description": "Trying to figure out how to extend TypeScript classes.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -20,7 +20,7 @@
   "author": "ashley@codecapers.com.au",
   "license": "MIT",
   "dependencies": {
-    "data-forge": "1.0.6"
+    "data-forge": "1.0.10"
   },
   "devDependencies": {
     "@types/node": "8.0.28",
